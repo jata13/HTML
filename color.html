@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style type="text/css" media="all">
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        div {
+            border: 1px solid white;
+            position: absolute;
+        }
+
+        .div8 {
+            width: 60px;
+            height: 60px;
+            background-color: yellow;
+        }
+
+        .div7 {
+
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            animation: text 4s infinite;
+        }
+
+        .div6 {
+            width: 140px;
+            height: 140px;
+            background-color: cyan;
+        }
+
+        .div5 {
+            width: 180px;
+            height: 180px;
+            background-color: hotpink;
+            animation: text 4s infinite;
+        }
+
+        .div4 {
+            width: 220px;
+            height: 220px;
+            background-color: orange;
+        }
+
+        .div3 {
+            width: 260px;
+            height: 260px;
+            background-color: limegreen;
+            animation: text 4s infinite;
+        }
+
+        .div2 {
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+        }
+
+        .div1 {
+            width: 340px;
+            height: 340px;
+            background-color: red;
+            animation: text 4s infinite;
+        }
+
+        @keyframes text {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(-4500deg);
+                box-shadow: 0px 0px 30px yellow;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <div class="div6"></div>
+    <div class="div7"></div>
+    <div class="div8"></div>
+</body>
+
+</html>
